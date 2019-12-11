@@ -1,0 +1,87 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (os_windows.cpp:3944), pid=16952, tid=0x0000000000004968
+#  guarantee(return_page != NULL) failed: Commit Failed for polling page
+#
+# JRE version:  (8.0_181-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.181-b13 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+Stack: [0x0000000003090000,0x0000000003190000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+
+Dynamic libraries:
+0x00007ff68e0e0000 - 0x00007ff68e117000 	C:\Program Files\Java\jre1.8.0_181\bin\javaw.exe
+0x00007ffa37b10000 - 0x00007ffa37cf1000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffa0b5d0000 - 0x00007ffa0b5e4000 	C:\Program Files\AVG\Antivirus\x64\aswhooka.dll
+0x00007ffa35260000 - 0x00007ffa35312000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffa33fe0000 - 0x00007ffa34253000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffa376b0000 - 0x00007ffa37751000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffa35130000 - 0x00007ffa351ce000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffa351d0000 - 0x00007ffa3522b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffa378c0000 - 0x00007ffa379e4000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffa34fa0000 - 0x00007ffa35130000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffa34500000 - 0x00007ffa34520000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffa35230000 - 0x00007ffa35258000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffa34c80000 - 0x00007ffa34e12000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffa34f00000 - 0x00007ffa34f9f000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffa33ee0000 - 0x00007ffa33fda000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffa25240000 - 0x00007ffa254a9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.345_none_fb429a5930656358\COMCTL32.dll
+0x00007ffa36870000 - 0x00007ffa36b93000 	C:\WINDOWS\System32\combase.dll
+0x00007ffa34e80000 - 0x00007ffa34efa000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffa36dc0000 - 0x00007ffa36ded000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000074ed0000 - 0x0000000074fa2000 	C:\Program Files\Java\jre1.8.0_181\bin\msvcr100.dll
+0x0000000072fb0000 - 0x0000000073852000 	C:\Program Files\Java\jre1.8.0_181\bin\server\jvm.dll
+0x00007ffa37ad0000 - 0x00007ffa37ad8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffa2fe80000 - 0x00007ffa2fe89000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffa36d50000 - 0x00007ffa36dbc000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffa32110000 - 0x00007ffa32133000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffa25900000 - 0x00007ffa2590a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffa31b60000 - 0x00007ffa31b8a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffa34520000 - 0x00007ffa34569000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x0000000074ec0000 - 0x0000000074ecf000 	C:\Program Files\Java\jre1.8.0_181\bin\verify.dll
+0x0000000074e90000 - 0x0000000074eb9000 	C:\Program Files\Java\jre1.8.0_181\bin\java.dll
+
+VM Arguments:
+java_command: C:\Users\linh_gao_bac\Documents\NetBeansProjects\Dictionary\dist\Dictionary.jar
+java_class_path (initial): C:\Users\linh_gao_bac\Documents\NetBeansProjects\Dictionary\dist\Dictionary.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\linh_gao_bac\AppData\Local\Microsoft\WindowsApps;C:\Users\linh_gao_bac\AppData\Roaming\npm;C:\Users\linh_gao_bac\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+USERNAME=linh_gao_bac
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 4 (initial active 4) 
+
+Memory: 4k page, physical 4057788k(277364k free), swap 16640700k(9068k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for windows-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 04:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Oct 23 13:34:10 2018
+elapsed time: 1 seconds (0d 0h 0m 1s)
+
